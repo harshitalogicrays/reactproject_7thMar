@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.js'
+
+// function Element(){
+//   return(<div>Element func</div>)
+// } 
+
+// let Element1=()=><div><h1>Arrow func</h1> <h2>heading2</h2></div>
+
+// let Element2=()=>React.createElement('div',null,'h1',null,'','')
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Element></Element> 
+    <Element1/> */}
+    <App/>
   </React.StrictMode>
 );
 
